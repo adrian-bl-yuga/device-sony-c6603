@@ -8,7 +8,6 @@
 <remove-project name="platform/hardware/qcom/msm8960" />
 <remove-project name="platform/hardware/qcom/power" />
 <remove-project name="platform/hardware/qcom/sensors" />
-<remove-project name="platform/hardware/qcom/gps" />
 <remove-project name="platform/hardware/invensense" />
 
 
@@ -42,8 +41,4 @@
 
 <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-12.0" />
 
-<!-- the 5.0 GPS does not work with our blob and would require significant changed - the 4.2 release is good enough -->
-<project path="hardware/qcom/gps"           name="platform/hardware/qcom/gps" revision="refs/tags/android-4.2.2_r1.2" />
-
 </manifest>
-
