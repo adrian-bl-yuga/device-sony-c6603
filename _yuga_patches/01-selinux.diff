@@ -11,7 +11,7 @@ index 6d6aee2..d02e42c 100644
  	$(hide) sed '/dontaudit/d' $@ > $@.dontaudit
  
 diff --git a/domain.te b/domain.te
-index 6b025e3..4dd2e60 100644
+index cb1c4f3..3337052 100644
 --- a/domain.te
 +++ b/domain.te
 @@ -215,7 +215,7 @@ neverallow { domain -system_server } security_file:lnk_file { create setattr unl
@@ -24,10 +24,10 @@ index 6b025e3..4dd2e60 100644
  
  # No booleans in AOSP policy, so no need to ever set them.
 diff --git a/recovery.te b/recovery.te
-index 204c096..8d5f40e 100644
+index 204c096..4e176bd 100644
 --- a/recovery.te
 +++ b/recovery.te
-@@ -4,6 +4,27 @@
+@@ -4,6 +4,30 @@
  # in neverallow rules.
  type recovery, domain;
  
@@ -51,6 +51,9 @@ index 204c096..8d5f40e 100644
 +  # re-disable se-linux
 +  allow recovery selinuxfs:file { rw_file_perms };
 +  allow recovery kernel:security setenforce;
++
++  # overmount dalvik-data with system-cache
++  allow recovery dalvikcache_data_file:dir mounton;
 +
  # But the allow rules are only included in the recovery policy.
  # Otherwise recovery is only allowed the domain rules.
