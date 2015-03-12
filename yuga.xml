@@ -24,20 +24,20 @@
 
 
 
-<project path="frameworks/opt/telephony"    name="android_frameworks_opt_telephony" remote="pabx" revision="lp50" />
-<project path="hardware/ril"                name="android_hardware_ril"           remote="pabx" revision="lp50" />
-<project path="frameworks/base"             name="android_frameworks_base"        remote="pabx" revision="lp50" />
-<project path="frameworks/av"               name="android_frameworks_av"          remote="pabx" revision="lp50" />
-<project path="system/core"                 name="android_system_core"            remote="pabx" revision="lp50" />
-<project path="packages/apps/Settings"      name="android_packages_apps_Settings" remote="pabx" revision="lp50" />
-<project path="packages/apps/VoiceDialer"   name="android_packages_apps_VoiceDialer" remote="pabx" revision="lp50" />
+<project path="frameworks/opt/telephony"    name="android_frameworks_opt_telephony" remote="pabx" revision="lp51" />
+<project path="hardware/ril"                name="android_hardware_ril"           remote="pabx" revision="lp51" />
+<project path="frameworks/base"             name="android_frameworks_base"        remote="pabx" revision="lp51" />
+<project path="frameworks/av"               name="android_frameworks_av"          remote="pabx" revision="lp51" />
+<project path="system/core"                 name="android_system_core"            remote="pabx" revision="lp51" />
+<project path="packages/apps/Settings"      name="android_packages_apps_Settings" remote="pabx" revision="lp51" />
+<project path="packages/apps/VoiceDialer"   name="android_packages_apps_VoiceDialer" remote="pabx" revision="lp51" />
 <project path="vendor/sony/yuga_blobs"      name="yuga-blobs-a806"                remote="pabx" revision="lp50_10_5_1_A_0_283" />
 <project path="vendor/sony/dash"            name="DASH"                           remote="pabx" revision="kk44" />
 <project path="kernel/sony/kernel_10_4_B_0_569"  name="kernel_10_4_B_0_569"       remote="pabx" revision="lp50_3_4_lts" />
 <project path="external/yuga-tools"         name="yuga-tools"                     remote="pabx" revision="lp50" />
 
-<project path="device/sony/lagan"           name="device-sony-lagan" groups="device" remote="pabx" revision="lp50" />
-<project path="device/sony/c6603"           name="device-sony-c6603" groups="device" remote="pabx" revision="lp50" />
+<project path="device/sony/lagan"           name="device-sony-lagan" groups="device" remote="pabx" revision="lp51" />
+<project path="device/sony/c6603"           name="device-sony-c6603" groups="device" remote="pabx" revision="lp51" />
 
 <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-12.0" />
 
