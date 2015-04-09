@@ -16,3 +16,5 @@ patch -d packages/apps/Nfc     -f -p1 < $CWD/03-nfc.diff
 # patch -d packages/apps/Email   -f -p1 < $CWD/04-email.diff
 patch -d hardware/qcom/display -f -p1 < $CWD/05-qcom-display.diff
 patch -d hardware/qcom/media   -f -p1 < $CWD/06-qcom-media.diff
+patch -d external/bluetooth/bluedroid -f -p1 < $CWD/07-bluedroid.diff
+patch -d external/libnfc-nxp   -f -p1 < $CWD/08-nxp-nfc.diff
