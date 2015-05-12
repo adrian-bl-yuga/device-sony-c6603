@@ -19,6 +19,7 @@
 <remove-project name="platform/frameworks/base" />
 <remove-project name="platform/hardware/ril" />
 <remove-project name="platform/system/core" />
+<remove-project name="platform/system/vold" />
 <remove-project name="platform/frameworks/opt/telephony" />
 <remove-project name="platform/packages/apps/VoiceDialer" />
 <remove-project name="platform/packages/apps/Browser" />
@@ -30,6 +31,7 @@
 <project path="hardware/ril"                name="android_hardware_ril"           remote="pabx" revision="lp51" />
 <project path="frameworks/base"             name="android_frameworks_base"        remote="pabx" revision="lp51" />
 <project path="system/core"                 name="android_system_core"            remote="pabx" revision="lp51" />
+<project path="system/vold"                 name="android_system_vold"            remote="pabx" revision="lp51" />
 <project path="packages/apps/Settings"      name="android_packages_apps_Settings" remote="pabx" revision="lp51" />
 <project path="packages/apps/VoiceDialer"   name="android_packages_apps_VoiceDialer" remote="pabx" revision="lp51" />
 <project path="vendor/sony/yuga_blobs"      name="yuga-blobs-a806"                remote="pabx" revision="lp50_10_5_1_A_0_292" />
